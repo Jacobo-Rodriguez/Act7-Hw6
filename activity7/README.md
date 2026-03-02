@@ -1,3 +1,31 @@
+# Activity 7 - Robotics School Platform
+
+## Project Description
+This project is a Laravel 10 application designed for a robotics school. 
+The system manages users (students, teachers, administrators), groups, courses, and robotics kits.
+
+## ER Diagram
+
+Entities:
+- Users
+- Groups
+- Courses
+- Robotics Kits
+- Course_Group (Pivot table)
+
+Relationships:
+- A user belongs to a group.
+- A group has many users.
+- A group belongs to many courses.
+- A course belongs to many groups.
+- A course belongs to one robotics kit.
+- A robotics kit has many courses.
+
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
